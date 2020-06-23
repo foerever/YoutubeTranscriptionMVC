@@ -54,7 +54,7 @@ To do this project, we have 3 team members called model, view, and controller. Y
 
 This is the scenario and how you should think about these 3 seperate components in the context of the MVC design pattern.
 
-The way this program is extremely simple since our aim is very simple. Our view is the interface for our user, it allows a user to input a youtube url that they want a transcription of. The model is able to retrieve the transcript of a youtube video given its id. The controller actually starts, runs, and coordinates the program. It's what allows us to seperate the model and the view. It is the only place where model and view are imported. It's worth noting here that the more complex of a project you have the more you get to appreciate the power of solid design patterns. This is obviously a relatively simple but interesting program. You should still be able to get the general gist of MVC from this program. To run the project (make sure you're in the pipenv environment noted above) run this command in the terminal:
+The way this program works is extremely simple since our aim is very simple. Our view is the interface for our user, it allows a user to input a youtube url that they want a transcription of. The model is able to retrieve the transcript of a youtube video given its id. The controller actually starts, runs, and coordinates the program. It's what allows us to seperate the model and the view. It is the only place where model and view are imported. It's worth noting here that the more complex of a project you have the more you get to appreciate the power of solid design patterns. This is obviously a relatively simple but interesting program. You should still be able to get the general gist of MVC from this program. To run the project (make sure you're in the pipenv environment noted above) run this command in the terminal:
 ```
 python3 yt_controller.py
 ```
@@ -72,7 +72,7 @@ For example, try inputting this WSJ interview with Microsoft CEO Satya Nadella:
 https://www.youtube.com/watch?v=kexuG-YcQFA
 ```
 
-Conveniently for us, youtube actually has ~okay auto generated youtube captions which we'll fetch and turn into our transcript. Even more conveniently for us, some other developer (me) already wrote a generalized version that will get the auto generated transcript if the manually created one doesn't exist. This function is `get_transcript()` in the model component. Luckily for us, it's very easy to replace the erroneous part in the controller because we're following the MVC design pattern. 
+Conveniently for us, youtube actually has ~okay auto generated youtube captions which we'll fetch and turn into our transcript. Even more conveniently for us, some other developer (me) already wrote a generalized version in the model that will get the auto generated transcript if the manually created one doesn't exist. This function is `get_transcript()` in the model component. Luckily for us, it's very easy to replace the erroneous part in the controller because we're following the MVC design pattern. 
 
 Change the error prone transcribe method used in the controller with the more generalized version.
 
