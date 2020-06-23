@@ -2,7 +2,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 
 class YTModel():
     
-    def get_transcription(self, video_id):
+    def get_transcript(self, video_id):
         transcript = YouTubeTranscriptApi.get_transcript(video_id)
         return transcript
     
