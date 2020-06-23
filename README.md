@@ -59,6 +59,11 @@ The way this program is extremely simple since our aim is very simple. Our view 
 python3 yt_controller.py
 ```
 
+The program will prompt you for the url of a youtube video to transcribe. Try this example from Khan Academy going over the American healthcare system:
+```
+https://www.youtube.com/watch?v=VpLKdKkpg68
+```
+
 ### Problems
 (1) What's the problem with using (`get_manually_created_transcript()`) in yt_controller? What if our youtube video doesn't have manually created transcript? 
 
