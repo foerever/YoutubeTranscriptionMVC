@@ -1,5 +1,5 @@
 # YoutubeTranscriptionMVC
-A coding assignment to transcribe youtube videos using the MVC design pattern. This is a LOT in terms of the depth of thinking you need to do. Remember what I told you this week, try to understand the general philosophy and motivation behind this and don't concern yourself too much with the less important aspects such as coding. It's perfectly okay for the code to not work, that's not the point of this assignment. Give your best shot and write down every thought in your head concerning each question.
+A coding assignment to transcribe youtube videos using the MVC design pattern. This is a LOT in terms of the depth of thinking you need to do. Remember what I told you this week, try to understand the general philosophy and motivation behind this and don't concern yourself too much with the less important aspects such as coding. It's perfectly okay for the code to not work, that's not the point of this assignment. Give it your best shot and write down every thought in your head concerning each question.
 
 ## Introduction
 Remember that one of the topics we discussed this week was the MVC (model view controller) design pattern. This is a relatively simple but extremely powerful design pattern used broadly through industry.
