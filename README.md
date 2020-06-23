@@ -54,7 +54,10 @@ To do this project, we have 3 team members called model, view, and controller. Y
 
 This is the scenario and how you should think about these 3 seperate components in the context of the MVC design pattern.
 
-The way this program is extremely simple since our aim is very simple. Our view is the interface for our user, it allows a user to input a youtube url that they want a transcription of. The model is able to retrieve the transcript of a youtube video given its id. 
+The way this program is extremely simple since our aim is very simple. Our view is the interface for our user, it allows a user to input a youtube url that they want a transcription of. The model is able to retrieve the transcript of a youtube video given its id. The controller actually starts, runs, and coordinates the program. It's what allows us to seperate the model and the view. It is the only place where model and view are imported. It's worth noting here that the more complex of a project you have the more you get to appreciate the power of solid design patterns. This is obviously a relatively simple but interesting program. You should still be able to get the general gist of MVC from this program. To run the project (make sure you're in the pipenv environment noted above) run this command in the terminal:
+```
+python3 yt_controller.py
+```
 
 ### Problems
 (1) What's the problem with using (`get_manually_created_transcript()`) in yt_controller? What if our youtube video doesn't have manually created transcript? 
