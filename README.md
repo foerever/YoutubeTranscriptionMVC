@@ -13,7 +13,7 @@ In any case let's get to the project at hand. You'll be working on a program tha
 ## Set Up
 Clone this repository into your projects folder. Click the green "clone" button, copy the web url of this repository. Open terminal, navigate to the projects directory (`cd ~/Desktop/projects/`). Now run the command:
 ```
-https://github.com/foerever/YoutubeTranscriptionMVC.git
+git clone https://github.com/foerever/YoutubeTranscriptionMVC.git
 ```
 
 I'm using a python package manager called pipenv. Remember, we talked about thoughtfulness in everything we build? Package managers are a great example of this. When you're working with others, people might have different software and different versions of libraries installed. That difference can lead to bugs and can lead to programs working for you but not for others. So we document the packages and use a package manager to deal with versioning/installation. These days people take it a step further and fully replicate the entire development environment using something called docker. It's an extremely useful tool but out of the scope of this lesson. 
